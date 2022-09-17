@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简介</title>
+    <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
+</head>
+<style>
+    
+body{
+    background-color: #cccccc;
+    font-family: "Microsoft Yahei","SimHei";
+    margin: 0 auto;
+    max-width: 900px;
+    border: solid #FFFFFF;
+}
+header{
+    background: brown;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1{
+    font-size: 72px;
+    margin: 0;
+}
+
+h3{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    color: #F47D31;
+}
+
+nav{
+    display: block;
+    width:25%;
+    float:left;
+}
+nav a:link, nav a:visited{
+    display:block;
+    color: #F47D31;
+    border-bottom: 3px solid #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+nav a:hover{
+    color: white;
+    background-color: #F47D31;
+}
+nav h3{
+    margin: 15px;
+    color: white;
+}
+#container{
+    background-color: #888888;
+}
+section{
+    display: block;
+    width: 50%;
+    float:left;
+}
+article{
+    background: #eee;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    /*
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    */
+    border-radius: 10px;
+    /*-webkit-box-shadow:2px 2px 20px #888;*/
+    /*-webkit-transform:rotate(-10deg);*/
+    /*-moz-box-shadow:2px 2px 20px #888;*/
+    /*-moz-transform:rotate(-10deg);*/
+    transform:rotate(-10deg);
+    box-shadow: 2px 2px 20px #888;
+}
+article header{
+    border-radius: 10px;
+    padding: 5px;
+}
+article footer{
+    border-radius: 10px;
+    padding: 5px;
+}
+article h1{
+    font-size: 18px;
+}
+
+footer{
+    clear:both;
+    display: block;
+    background: #F47D31;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>界面待开发</h1>
+    </header>
+    <div id="containter">
+        <nav>
+            <h3>前端学习链接</h3>
+            <a href="https://www.runoob.com/">菜鸟教程</a>
+        </nav>
+        <section>
+            <article>
+                <header>
+                    <h1>简介</h1>
+                </header>
+                <ul type="square">
+                    <li>姓名：詹峻</li>
+                    <li>性别：男</li>
+                </ul>
+                <header></header>
+                <ul>
+                    <h1>个人能力</h1>
+                </ul>
+            </article>
+        </section>
+    </div>
+</body>
+</html>         
